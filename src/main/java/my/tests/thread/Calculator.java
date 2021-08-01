@@ -1,4 +1,4 @@
-package my.tests;
+package my.tests.thread;
 
 public class Calculator {
   private int sum;

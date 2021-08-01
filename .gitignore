@@ -31,3 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
+
+./test-app-1.0-SNAPSHOT
