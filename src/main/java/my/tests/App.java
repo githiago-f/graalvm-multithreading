@@ -1,12 +1,12 @@
 package my.tests;
 
-import my.tests.assertions.Assertion;
+import my.tests.thread.ThreadTest;
 
 public class App
 {
   public static void main(String[] args) {
-    Assertion a = new Assertion();
-    a.testAssertKeyword("");
-    a.testAssertKeyword(null);
+    ThreadTest t = new ThreadTest();
+    System.out.println("LOGGED HERE");
+    t.calculate();
   }
 }
